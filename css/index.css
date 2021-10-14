@@ -5,6 +5,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+#head_prin {
+    position: relative;
+}
+
 #head_prin,
 #next_part {
     display: flex;
@@ -16,10 +20,6 @@ body {
     width: 100%;
     overflow-x: hidden;
     overflow-y: hidden;
-}
-
-#head_prin {
-    position: relative;
 }
 
 #head_prin .aux {
